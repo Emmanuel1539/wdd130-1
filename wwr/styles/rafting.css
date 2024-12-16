@@ -199,6 +199,10 @@ nav ul li a{
     border-radius: 5px;
     
 }
+
+.history-card-detail p{
+    color: black;
+}
 .history-card-detail img{
     margin: 0 20px;
     width: 200px;
@@ -446,9 +450,65 @@ figcaption {
 }
 
 
+/* Trip page styling */
 
+.trips-hero {
+    position: relative;
+    text-align: center;
+}
+.full-width-image {
+    width: 100%;
+    height: auto;
+}
+.trips-hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem;
+}
+.trip-overview, .trip-details, .trip-photos {
+    padding: 20px;
+    text-align: center;
+}
 
-
+.trip-overview p{
+    color: black;
+}
+.trip-details table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.trip-details table th, .trip-details table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.photo-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.photo-gallery figure {
+    text-align: center;
+}
+.photo-gallery img {
+    width: 500px;
+    height: 250px;
+}
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+.cta-button {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 
 /* footer section */
 
